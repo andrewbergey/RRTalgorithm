@@ -33,7 +33,7 @@ class Robot:
 
 
 robotImg = pygame.image.load(
-    r"C:\Users\f-ing\OneDrive\Coding Stuff\hwCode\Project1NavigationPython/robotPhoto.png")
+    r"insert file path for: robotPhoto.png")
 
 
 def distanceTraveled(dataLine):
