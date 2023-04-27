@@ -11,4 +11,4 @@ NavMain uses the functions and a class created in the other file(s) within loops
 	
                                 (1)     f(q, pos, theta) = ||pos - q|| + ||pos - q|| * (1 - cos(theta))
 				
-With pos, q, and theta representing the robots current position, the input point, and the angle from positive x-axis, respectively. If this equation with an output a value less than the robot radius, the point was marked visited, otherwise it was discarded/ignored. Then taking the total visited points divided by the total input points, a ratio of free space visited was created, ranging from ~0.9 - 0.97. Last, NavMain animates the robot moving on the final path from start to goal.
+With pos, q, and theta representing the robots current position, the input point, and the angle from positive x-axis, respectively. If this equation has an output a value less than the robot radius, the point was marked visited, otherwise it was discarded/ignored. Then taking the total visited points divided by the total input points, a ratio of free space visited was created, generally ranging from ~0.9 - 0.97. Last, NavMain animates the robot moving on the final path from start to goal.
