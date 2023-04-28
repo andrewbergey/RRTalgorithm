@@ -1,5 +1,5 @@
 # RRT Navigation Project Report
-To view an animation of this algorithms implementation, click on the file: RRTvideo.mp4
+To view an animation of this algorithms implementation, click on and download the file: RRTvideo.mp4
 
 The files attached are labeled NavMain, NavBase, NavRobotV2, and NavRRT. Using an RRT based algorithm, these files were coded to output an RRT, final path, and a robot following this path onto a 200 x 200 pixel window representing a map with walls and with each pixel representing a centimeter (cm). 
 
